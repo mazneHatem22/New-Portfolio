@@ -1,0 +1,8 @@
+
+/node_modules
+/.next
+/out
+./out
+config.js
+./config.js
+

@@ -1,0 +1,8 @@
+{
+  "projects": {
+    "default": "mazenhatem-app",
+    "maghraby": "mazenhatem-app"
+  },
+  "targets": {},
+  "etags": {}
+}

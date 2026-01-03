@@ -1,7 +1,7 @@
 import ProjectCard from "./ProjectCard";
 import { ProjectProps } from "../../types/project";
 import React, { useEffect, useState } from "react";
-import getProjects from "../../service/GetProjectDetails";
+// import getProjects from "../../service/GetProjectDetails";
 import { lex } from "../../helper/lex";
 import AnimatedTitle from "../../animations/AnimatedTitle";
 

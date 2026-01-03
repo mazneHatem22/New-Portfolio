@@ -1,18 +1,18 @@
 // @ts-check
 
-const isProduction = process.env.NODE_ENV === "production";
-const outputDir = process.env.BRANCH === "dev" ? "dev" : ".next";
+// const isProduction = process.env.NODE_ENV === "production";
+// const outputDir = process.env.BRANCH === "dev" ? "dev" : ".next";
 
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  distDir: outputDir,
+  // distDir: outputDir,
   output: "export",
   compiler: {
-    reactRemoveProperties: isProduction,
-    removeConsole: isProduction,
+    reactRemoveProperties: true,
+    removeConsole: true,
     styledComponents: {
-      displayName: !isProduction,
-      minify: isProduction,
+      displayName: false,
+      minify: true,
       pure: true,
     },
   },
@@ -25,8 +25,8 @@ const nextConfig = {
     appDir: true,
   },
   optimizeFonts: true,
-  productionBrowserSourceMaps: isProduction,
-  swcMinify: !isProduction,
+  productionBrowserSourceMaps: true,
+  swcMinify: false,
   images: {
     unoptimized: true,
     remotePatterns: [

@@ -5,7 +5,7 @@ import AnimatedTitle from "../animations/AnimatedTitle";
 import AnimatedTools from "../animations/AnimatedTools.tsx";
 import { iconMapper } from "../helper/iconMapper";
 import { Tools as ToolsType } from "../types/tools";
-import getTools from "../service/GetTools.ts";
+// import getTools from "../service/GetTools.ts";
 import Link from "next/link";
 import { lex } from "../helper/lex.ts";
 const Tools = () => {

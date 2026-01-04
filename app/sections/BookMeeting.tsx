@@ -61,8 +61,8 @@ const BookMeeting: React.FC = () => {
               className={"contact__email__row"}
             >
               {[...Array(textCount)].map((_, textKey) => (
-                <a key={textKey} href="https://calendar.app.google/rPaupi1Yd5vjJahRA" target="_blank" className={"contact__email__row__text"}>
-                  Schedule a meeting <span className={"serif"}>With me</span>
+                <a key={textKey} href="https://api.whatsapp.com/send?phone=201201150366" target="_blank" className={"contact__email__row__text"}>
+                  Call Me 
                   {textKey !== textCount - 1 && <span>&nbsp; - &nbsp;</span>}
                 </a>
               ))}

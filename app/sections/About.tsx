@@ -62,15 +62,15 @@ const About = () => {
         >
           <div className="flex flex-col mb-10 text-lg font-light leading-relaxed tracking-wide content text-t-color md:mb-16 md:gap-6 md:text-lg md:leading-relaxed lg:mb-16 lg:text-xl">
             <span className="span">
-              I'm Mazen Hatem and I'm a software engineer with{" "}
-              {new Date().getFullYear() - 2024} years of experience. As a
-              software engineer team leader, I have a proven track record of
-              delivering robust and scalable software solutions. I have a strong
-              foundation in backend, frontend, and mobile development, and I
-              thrive on tackling complex challenges within the ERP, FinTech,
-              e-commerce, and e-service domains. With a keen eye for innovation,
-              I am dedicated to crafting exceptional user experiences.
-            </span>
+  I'm Mazen Hatem, a Front-End Developer with{" "}
+              {new Date().getFullYear() - 2024} year of experience. I specialize
+  in building responsive, user-friendly interfaces using modern front-end
+  technologies. I have strong skills in translating UI/UX designs into clean,
+  high-quality code, enhancing user experience and engagement. I enjoy solving
+  problems, paying attention to detail, and delivering scalable, maintainable
+  front-end solutions.
+</span>
+
           </div>
         </div>
       </div>

@@ -75,12 +75,12 @@ const Contact = () => {
               />
             </Link>
             <Link
-              href="https://calendar.app.google/rPaupi1Yd5vjJahRA"
+              href="https://api.whatsapp.com/send?phone=201201150366"
               target="_blank"
               aria-label="Book a meeting with me"
             >
               <AnimatedTitle
-                text={"CALENDAR"}
+                text={"Whatsapp"}
                 className={"cursor-pointer text-base font-bold text-main"}
                 wordSpace={"mr-[0.25em]"}
                 charSpace={"mr-[0.01em]"}

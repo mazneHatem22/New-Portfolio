@@ -9,36 +9,103 @@ const ProjectGrid = () => {
   const [projects, setProjects] = useState<any>([
     {
   "available": true,
-  "demo": "https://we-book-task.vercel.app/",
-  "description": "A high-performance web application built with Next.js, TypeScript, Tailwind CSS, and PWA support.",
+  "demo": "https://stoturee.vercel.app/",
+  "description": "Stoture is a marketing and visual content production company that helps you achieve your ambitions",
   "github": "https://github.com/mazneHatem22",
   "id": 1,
-  "image": "https://firebasestorage.googleapis.com/v0/b/ahmedmagraby-app.appspot.com/o/Screenshot%202024-08-04%20at%2011.16.07%E2%80%AFAM.png?alt=media&token=b9c3995d-4e56-40d9-ac35-12a00f7df1ce",
-  "name": "E-Commerce Starter Template",
+  "image": "Stoture.png",
+  "name": "Stoture Portfolio",
   "sortId": "1",
   "techNames": [
-    "TypeScript",
-    "Next.js",
-    "Tailwind CSS",
-    "PWA",
+    "JavaScript",
+    "React",
+    "Css3",
+    "Bootstrap 5",
     "Vercel", 
   ]
 },
     {
   "available": true,
-  "demo": "https://we-book-task.vercel.app/",
-  "description": "A high-performance web application built with Next.js, TypeScript, Tailwind CSS, and PWA support.",
+  "demo": "https://movies-app-five-psi.vercel.app/",
+  "description": "A high-performance movie streaming web application",
   "github": "https://github.com/mazneHatem22",
   "id": 2,
-  "image": "https://firebasestorage.googleapis.com/v0/b/ahmedmagraby-app.appspot.com/o/Screenshot%202024-08-04%20at%2011.16.07%E2%80%AFAM.png?alt=media&token=b9c3995d-4e56-40d9-ac35-12a00f7df1ce",
-  "name": "E-Commerce Starter Template",
+  "image": "MovieApp.png",
+  "name": "Movies App",
   "sortId": "2",
   "techNames": [
-    "TypeScript",
-    "Next.js",
-    "Tailwind CSS",
-    "PWA",
+    "JavaScript",
+    "React",
+    "Css3",
+    "Bootstrap 5",
+    "Redux",
     "Vercel"
+  ]
+},
+    {
+  "available": true,
+  "demo": "https://bio-medic.vercel.app/",
+  "description": "A high-performance biomedical web application",
+  "github": "https://github.com/mazneHatem22",
+  "id": 3,
+  "image": "BioMedic.png",
+  "name": "Bio Medic portfolio",
+  "sortId": "3",
+  "techNames": [
+    "Html5",
+    "JavaScript",
+    "Css3",
+    "Bootstrap 5",
+    "Vercel"
+  ]
+},
+    {
+  "available": true,
+  "demo": "https://econnect-africa.com/",
+  "description": "A high-performance biomedical company website for Econnect Africa",
+  "github": "https://github.com/mazneHatem22",
+  "id": 4,
+  "image": "Econnect.png",
+  "name": "Econnect Africa",
+  "sortId": "4",
+  "techNames": [
+    "Html5",
+    "JavaScript",
+    "Css3",
+    "Bootstrap 5",
+    "Vercel"
+  ]
+},
+    {
+  "available": true,
+  "demo": "https://portal-sudan.azurewebsites.net/Econnect",
+  "description": "A high-performance biomedical company dashboard for Econnect Africa",
+  "github": "https://github.com/mazneHatem22",
+  "id": 5,
+  "image": "Econnect-dashboard.png",
+  "name": "Econnect Africa Dashboard",
+  "sortId": "5",
+  "techNames": [
+    "Html5",
+    "JavaScript",
+    "Css3",
+    "Bootstrap 5"
+  ]
+},
+    {
+  "available": true,
+  "demo": "https://mighty-portal.azurewebsites.net//Mighty",
+  "description": "A high-performance dashboard for Mighty, a nursery management company",
+  "github": "https://github.com/mazneHatem22",
+  "id": 6,
+  "image": "Mighty.png",
+  "name": "Mighty Dashboard",
+  "sortId": "6",
+  "techNames": [
+    "Html5",
+    "JavaScript",
+    "Css3",
+    "Bootstrap 5"
   ]
 }
   ]);

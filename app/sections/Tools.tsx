@@ -15,9 +15,8 @@ const Tools = () => {
     Frontend: [
       "HTML5",
       "CSS3",
-      "Tailwind CSS",
+      "BootStrap 5",
       "JavaScript",
-      "TypeScript",
       "jQuery",
       "React",
       "Next.js",
@@ -25,7 +24,7 @@ const Tools = () => {
       "Google Analytics",
     ],
     // Mobile: ["Flutter", "React Native", "Firebase", "GraphQL"],
-    Other: ["Git", "Atlassian", "Postman", "Vercel"],
+    Other: ["Git",  "Postman", "Vercel"],
   });
 
   return (

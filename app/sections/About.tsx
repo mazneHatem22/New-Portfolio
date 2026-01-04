@@ -63,7 +63,7 @@ const About = () => {
           <div className="flex flex-col mb-10 text-lg font-light leading-relaxed tracking-wide content text-t-color md:mb-16 md:gap-6 md:text-lg md:leading-relaxed lg:mb-16 lg:text-xl">
             <span className="span">
               I'm Mazen Hatem and I'm a software engineer with{" "}
-              {new Date().getFullYear() - 2018} years of experience. As a
+              {new Date().getFullYear() - 2024} years of experience. As a
               software engineer team leader, I have a proven track record of
               delivering robust and scalable software solutions. I have a strong
               foundation in backend, frontend, and mobile development, and I
